@@ -1,0 +1,6 @@
+// Example JavaScript for interactivity
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded.');
+
+    // Add your JavaScript code here
+});
