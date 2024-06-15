@@ -1,0 +1,16 @@
+<?php
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Process login form
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    
+    // Example: Authenticate user (you need to set up your authentication logic)
+    // Placeholder code to simulate successful login
+    $_SESSION['username'] = $username;
+    
+    header("Location: ../profile.html");
+    exit();
+}
+?>
